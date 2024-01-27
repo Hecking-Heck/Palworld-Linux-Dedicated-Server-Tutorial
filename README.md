@@ -12,16 +12,16 @@ An in-depth tutorial on how to get started with a Palworld Dedicated Server runn
 > - This script is based on Debian 12 and Ubuntu 23.10, it might work with other distros it might not
 
 # Finding a Host
-I chose Hetzner
+I chose Hetzner, you can use [This Referral Link](https://hetzner.cloud/?ref=VdHlKzYHPKIq) if you decide to use Hetzner!
 
 I am running:
-4 Cores
-8GB Ram
-40GB SSD
+- 4 VCores
+- 8GB Ram
+- 40GB SSD
 
-This is around 15 euro for me on Hetzner.
+This is around 15 euro for me on Hetzner and it runs perfectly fine for my 32 slot server, you may opt for less.
 
-# Updating
+# Update and upgrade everything:
 ```bash
 apt update && apt dist-upgrade
 ```
