@@ -1,7 +1,11 @@
 # Palworld-Linux-Dedicated-Server-Tutorial
 An in-depth tutorial on how to get started with a Palworld Dedicated Server running on Debian 12 / Ubuntu 23.10
 
-# Currently a work in progress
+[!IMPORTANT]
+This is a work in progress, please standby for more updates!
+
+[!CAUTION]
+This script is based on Debian 12 and Ubuntu 23.10!
 
 # Finding a Host
 I chose Hetzner
