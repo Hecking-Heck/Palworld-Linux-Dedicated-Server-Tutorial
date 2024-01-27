@@ -42,7 +42,7 @@ On Ubuntu, innstall SteamCMD with all the dependencies:
 apt install software-properties-common && apt-add-repository main universe restricted multiverse && dpkg --add-architecture i386 && apt update && apt install steamcmd
 ```
 
-# Creation of new user (This is required)
+# Creation of the Steam user (This is required)
 
 Install sudo and create a new user steam:
 ```bash
