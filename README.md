@@ -84,8 +84,10 @@ ufw allow 22 && ufw allow 8211
 
 (22 is SSH port, 8211 is Palworld Dedicated Server Port)
 
-now enable it
+Now enable it
+```bash
 ufw enable
+```
 
 
 # Cloudflare domain and DNS stuff (this is only needed if you want a custom domain for your server)
