@@ -82,7 +82,12 @@ Now allow the correct ports
 ufw allow 22 && ufw allow 8211
 ```
 
-(22 is SSH port, 8211 is Palworld Dedicated Server Port)
+> [!NOTE]
+> - 22 is SSH port
+> - 8211 is Palworld Dedicated Server Port
+
+> [!CAUTION]
+> - YOU MUST ENABLE PORT 22 IF YOU ARE CONNECTING VIA SSH, IF YOU DO NOT YOU WILL DISCONNECT AND NOT BE ABLE TO LOG IN AGAIN
 
 Now enable it
 ```bash
