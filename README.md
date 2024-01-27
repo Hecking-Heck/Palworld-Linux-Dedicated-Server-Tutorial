@@ -107,7 +107,7 @@ ufw enable
 > [!NOTE]
 > - For the A record, the Host will be the subdomain, for example a Host of "play" will mean that "play.yourdomain.yourtld" will point to the IP address
 > - If you don't want a subdomain at the start, just type "@" in the Host field. this way "yourdomain.yourtld" will point to the IP.
-
+> - If you do not understand what I just said, the [GUIDE](https://www.namecheap.com/support/knowledgebase/article.aspx/9607/2210/how-to-set-up-dns-records-for-your-domain-in-a-cloudflare-account/) will explain it better.
 When connecting in-game, use the domain name and then append ":8211" at the end.
 EG. play.paltopia.net:8211
 
