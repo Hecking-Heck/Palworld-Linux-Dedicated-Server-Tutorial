@@ -95,9 +95,21 @@ ufw enable
 ```
 
 
-# Cloudflare domain and DNS stuff (this is only needed if you want a custom domain for your server)
-EG. play.paltopia.online:8211 instead of 123.4.5.6:8211
+# Cloudflare domain and DNS stuff
+> [!NOTE]
+> - This is only needed if you want a custom domain for your server
+> - EG. play.paltopia.online:8211 instead of 123.4.5.6:8211
 
+1. Get a domain, I recommend using [NameCheap](https://www.namecheap.com)
+2. Connect the domain to [Cloudflare](https://www.cloudflare.com), [GUIDE](https://www.namecheap.com/support/knowledgebase/article.aspx/9607/2210/how-to-set-up-dns-records-for-your-domain-in-a-cloudflare-account/)
+3. Add an A record and point it towards your server IP [GUIDE](https://developers.cloudflare.com/dns/manage-dns-records/how-to/create-dns-records/)
+
+> [!NOTE]
+> - For the A record, the Host will be the subdomain, for example a Host of "play" will mean that "play.yourdomain.yourtld" will point to the IP address
+> - If you don't want a subdomain at the start, just type "@" in the Host field. this way "yourdomain.yourtld" will point to the IP.
+
+When connecting in-game, use the domain name and then append ":8211" at the end.
+EG. play.paltopia.net:8211
 
 # Credit
 This is based on the Tutorial by A1RM4X, I have tweaked and changed it to suit my purposes a bit more
