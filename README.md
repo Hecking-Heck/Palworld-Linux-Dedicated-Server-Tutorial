@@ -72,14 +72,15 @@ Install the Palworld dedicated server via SteamCMD:
 
 
 
-# Installing and configuring UFW
+# Installing and configuring UFW (Firewall)
 
 First install it
 sudo apt get install ufw
 
 Now allow the correct ports
-ufw allow 22
-ufw allow 8211
+```bash
+ufw allow 22 && ufw allow 8211
+```
 
 (22 is SSH port, 8211 is Palworld Dedicated Server Port)
 
