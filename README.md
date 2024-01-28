@@ -24,7 +24,7 @@ I am running:
 - 8GB Ram
 - 40GB SSD
 
-This is around 15 euro for me on Hetzner and it runs perfectly fine for my 32 slot server, you may opt for less.
+This is around 15 euros for me on Hetzner and it runs perfectly fine for my 32-slot server, you may opt for less.
 
 # Update and upgrade everything:
 ```bash
@@ -32,12 +32,12 @@ apt update && apt dist-upgrade
 ```
 
 # SteamCMD Installation
-On Debian, innstall SteamCMD with all the dependencies:
+On Debian, install SteamCMD with all the dependencies:
 ```bash
 apt install software-properties-common && apt-add-repository non-free && dpkg --add-architecture i386 && apt update && apt install steamcmd
 ```
 
-On Ubuntu, innstall SteamCMD with all the dependencies:
+On Ubuntu, install SteamCMD with all the dependencies:
 ```bash
 apt install software-properties-common && apt-add-repository main universe restricted multiverse && dpkg --add-architecture i386 && apt update && apt install steamcmd
 ```
@@ -83,9 +83,9 @@ cp DefaultPalWorldSettings.ini Pal/Saved/Config/LinuxServer/PalWorldSettings.ini
 
 ## Setup a service to automate the server
 
-Make sure all the command below are executed as root.
+Make sure all the commands below are executed as root.
 
-### 1. Setup the maintenance script for server backups and updates.
+### 1. Set up the maintenance script for server backups and updates.
 
 Create the maintenance script, make it executable and give it the right user permissions:
 ```bash
@@ -110,7 +110,7 @@ systemctl enable palworld.service && systemctl daemon-reload && systemctl start 
 
 # Installing and configuring UFW (Firewall)
 
-First install it
+First, install it
 sudo apt get install ufw
 
 Now allow the correct ports
@@ -141,7 +141,7 @@ ufw enable
 3. Add an A record and point it towards your server IP [GUIDE](https://developers.cloudflare.com/dns/manage-dns-records/how-to/create-dns-records/)
 
 > [!NOTE]
-> - For the A record, the Host will be the subdomain, for example a Host of "play" will mean that "play.yourdomain.yourtld" will point to the IP address
+> - For the A record, the Host will be the subdomain, for example, a Host of "play" will mean that "play.yourdomain.yourtld" will point to the IP address
 > - If you don't want a subdomain at the start, just type "@" in the Host field. this way "yourdomain.yourtld" will point to the IP.
 > - If you do not understand what I just said, the [GUIDE](https://www.namecheap.com/support/knowledgebase/article.aspx/9607/2210/how-to-set-up-dns-records-for-your-domain-in-a-cloudflare-account/) will explain it better.
 When connecting in-game, use the domain name and then append ":8211" at the end.
